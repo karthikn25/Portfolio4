@@ -559,6 +559,10 @@ h3.my-profession{
     width: 100%;
     display: block;
 }
+.work-btns{
+    margin: 5px;
+    display: flex;
+}
 
 /* contact css */
 .contact-title{
@@ -670,6 +674,13 @@ h3.my-profession{
         
         margin-left: 180px;
     }
+    .work-btns{
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
 }
 @media (max-width:767px){
 .contact .contact-form .col-6,    
@@ -687,11 +698,28 @@ h3.my-profession{
         
     margin-left: 80px;
 }
+.work-btns{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 }
 @media (max-width:450px) {
     .contact .contact-form{
         
         margin-left: 40px;
+    }
+    .work-btns{
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        >.btn{
+            margin: 5px;
+        }
     }
 }
 
